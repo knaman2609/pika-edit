@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datepicker editor</title>
+  <link rel="stylesheet" href="pikday.css">
+  <link rel="stylesheet" href="style.css">
+  <style></style>
+</head>
+  <body>
+    <h2>Pika Edit</h2>
+    <input type="text" id='datepicker'>
+
+    <div class="selectors">
+      ------------ Outer -------------  </br>
+      <div class="selector is-selected">.pika-single</div>
+      <div class="selector">.pika-lendar</div></br>
+      ----------- Title ---------------  </br>
+      <div class="selector">.pika-title</div>
+      <div class="selector">.pika-label</div></br>
+      ----------- Table Head -------  </br>
+      <div class="selector">.pika-table thead</div>
+      <div class="selector">.pika-table th</div></br>
+      ----------- Table Body -------  </br>
+      <div class="selector">.pika-table tbody</div>
+      <div class="selector">.pika-single tbody td</div>
+      <div class="selector">.pika-button</div></br>
+      ----------- Button states -----  </br>
+      <div class="selector">.is-today .pika-button</div>
+      <div class="selector">.is-selected .pika-button</div>
+      <div class="selector">.is-disabled .pika-button</div>
+      <div class="selector">.pika-button:hover</div>
+    </div>
+
+    <div class="editor">
+      <textarea class='edit'></textarea>
+      <textarea class="copy-code"></textarea>
+      <a href="" class="run">Run</a>
+      <a href="" class="export">Export</a>
+      <a href="" class="reset">Reset</a>
+    </div>
+
+    <input type="text" class="color">
+  <script src='jquery.js'></script>
+  <script src='pikaday.js'></script>
+  <script src='main.js'></script>
+  </body>
+</html>
